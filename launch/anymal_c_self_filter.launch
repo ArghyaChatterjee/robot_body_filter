@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+    <node pkg="robot_self_filter" type="self_filter" respawn="true" name="laser_self_filter" output="screen">
+        <remap from="cloud_in" to="/anymal_c/combined_transformed_point_cloud" />
+        <remap from="cloud_out" to="/anymal_c/combined_transformed_point_cloud_filtered" />
+        <remap from="robot_description" to="anymal_c/robot_description" />
+        <param name="sensor_frame" type="string" value="anymal_c" />        
+        <param name="subsample_value" type="double" value=".01"/>
+        <rosparam command="load" file="$(find robot_self_filter)/config/self_filter_anymal_c.yaml" />
+    </node>
+</launch>
