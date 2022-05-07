@@ -1,0 +1,36 @@
+min_sensor_dist: 0.75
+self_see_default_padding: 0.0
+self_see_default_scale: 0.0
+self_see_links:
+  - name: anymal_c/LH_SHANK
+    padding: .00
+  - name: anymal_c/LH_THIGH
+    padding: .00
+  - name: anymal_c/LH_HIP
+    padding: .00
+  - name: anymal_c/LF_SHANK
+    padding: .00
+  - name: anymal_c/LF_THIGH
+    padding: .00
+  - name: anymal_c/LF_HIP
+    padding: .00
+  - name: anymal_c/RH_SHANK
+    padding: .00
+  - name: anymal_c/RH_THIGH
+    padding: .00
+  - name: anymal_c/RH_HIP
+    padding: .00
+  - name: anymal_c/RF_SHANK
+    padding: .00
+  - name: anymal_c/RF_THIGH
+    padding: .00
+  - name: anymal_c/RF_HIP
+    padding: .00
+  - name: anymal_c
+    padding: .00
+
+
+
+    
+
+  
