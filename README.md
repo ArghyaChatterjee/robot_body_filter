@@ -2,6 +2,9 @@
 
 Filters the robot's body out of point clouds and laser scans.
 
+## ANYmal_C Filter
+Added launch file and config file for ANYmal_C robot.
+
 ## Tutorial
 
 Check out the webinar recording where a lot of options for this filter are explained and demonstrated! https://www.youtube.com/watch?v=j0ljV0uZy3Q
